@@ -1,0 +1,13 @@
+--TAM SAYI TÝPLERÝ1 
+--30-04-23 PAZAR
+--bigint: min (-2 üzeri 63) max (2 üzeri 63-1) deðerini alabilir 8 byte alan kaplar
+--int: min(-2 üzeri 31 ) mmax (2 üzeri 31-1) deðerini alabilir 4 byte alan kaplar
+--smallint:min(-2 üzeri 15 ) mmax (2 üzeri 15-1) deðerini alabilir 2 byte alan kaplar
+--tinyint: min(0) mmax (255) deðerini alabilir 1 byte alan kaplar
+--bit 0 ya da 1 deðerini alýr(true false)
+--ülke adlarýný tabloda hazýrlarken tinyint kullanabiliriz daha az yer kaplar
+--ya da þehir adý için smallint kullanabiliriz daha az yer kaplar
+-- datanýn boyutu çok önemlidir o yüzden veri tipi çok iyi hazýrlanmalýdýr.
+
+--ondalýk sayý tipleri
+--decimal,money,smallmoney,float,real

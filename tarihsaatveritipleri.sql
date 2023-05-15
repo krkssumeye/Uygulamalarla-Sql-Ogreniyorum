@@ -1,0 +1,7 @@
+--nchar uluslararası yazılımlarda kullanılır. arapça ve çince harfleri de kapsar
+--tarih ve saat veri tipleri
+--date: min(0001-01-01) max(9999-12-31) aralığındaki tarihleri tutar 4 byte yer kaplar
+--smaldate: min(1900-01-01) max(2079-06-06) aralığındaki tarihleri tutar 3 byte yer kaplar
+--datetime: min(1753-01-01 00.00.00.000) max(9999-12-31 23.59.59.997) aralığındaki saati ve tarihi tutar 8 byte
+--datetime2: min(000-01-01 00.00.00.0000000) max(9999-12-31 23.59.59.999999)aralığındaki saati ve tarihi tutar 8 byte 1-2 hassasiyet için = 6 byte
+--time: min(00.00.00.0000000) max (23.59.59.9999999) aralığındaki saati ve tarihi tutar 5 byte
